@@ -1,0 +1,22 @@
+- take a csv file and automatically upload it to the database
+
+steps:
+- import the csv file into pandas dataframe
+- clean the table, and remove all extra symbols, spaces, capital letters
+- clean the column headers and remove all extra symbols, spaces, capital letters
+
+
+- we had to disable secure_file_priv to run the load data infile command
+- and check the the width of each data type to be stored in the table
+
+
+-  how to insert negative float values into mysql table
+
+- I need to get hold of the count table of highlight_fur_color
+"create table %s (%s varchar(20), %s varchar(20))" % (table_name, col, s_col), 
+this how we create the table by passing variable name"
+
+
+
+# load the csv file to the dataframe
+- load data from python dataframe to mysql table
